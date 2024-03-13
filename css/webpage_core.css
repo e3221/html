@@ -23,3 +23,21 @@ a{
     text-decoration: none;
      color:black;
 }
+
+/* ul > li > a > div {
+    float: left;
+}
+ul > li {
+    
+    clear:both;
+   
+    overflow: hidden;
+}
+ul > li > a > div:first-child{
+   
+    width: 45px; float: left;
+}
+ul > li > a > div:last-child{
+  
+    width: 120px; float: left;
+} */
