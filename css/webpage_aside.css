@@ -1,0 +1,9 @@
+ul > li > a > div {
+    float: left;
+}
+ul > li {
+    /* float 해제 */
+    clear:both;
+    /* float 부모 */
+    overflow: hidden;
+}
