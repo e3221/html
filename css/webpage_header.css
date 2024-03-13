@@ -29,7 +29,7 @@ header div.logo{
     position: absolute; top:50px; left: 50px;
 }
 
-/* li-a 링크 padding, border */
+/* li-a 링크 padding, border - background*/
 header a{
     display: inline-block;
     border: 1px solid black;   
