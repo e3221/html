@@ -18,10 +18,24 @@
     <h1 class="c2">JavaScript 처음3</h1>
     
     <script>
-        window.alert("window객체의 alert 라는 함수/메소드를 호출함.");
-        alert("window객체명 생략하고 접근 가능함.");
-        window.getElementById("id2"); // 에서 window생략
+        // object 집중적
+        var a15 = {k1:1, k2:"s"};
+        console.log(a15);
+        a15.k3 = "a15dp 새로 key k3 생성하고 값";
+        console.log(a15);
+        a15.k2 = "a15에 기존 key k2에 값 바꿈";
+        console.log(a15);
 
+        a11 = "ss"; 
+
+        a16 = "a16은 앞에 window. 생략. wmr window에 기존key a16이 없다면 생성, 있었다면 값 바꿈";
+        console.log(a16);
+
+
+        // window.alert("window객체의 alert 라는 함수/메소드를 호출함.");
+        // alert("window객체명 생략하고 접근 가능함.");
+        window.document.getElementById("id2"); // 에서 window생략
+        console.log(typeof(window));
         // 자료형
         var a8 ;// true //234.23 // "sdf" // null(object)
         console.log(typeof (a8)); // undefined 선언, 값없으면
